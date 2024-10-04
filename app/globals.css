@@ -2,26 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.inter {
+  font-family: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.poppins {
+  font-family: var(--font-poppins);
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.josefinSans {
+  font-family: var(--font-josefinSans);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.openSans {
+  font-family: var(--font-openSans);
 }
