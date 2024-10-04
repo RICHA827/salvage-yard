@@ -9,7 +9,7 @@ import LeftNavigation from "public/navigation-left.png";
 const Reviews: React.FC = () => {
   return (
     <div className="bg-[rgba(210,235,213,0.19)] py-16 px-4 flex flex-col items-center h-[572.52px] mt-10 mb-4">
-      <h2 className="josefinSans text-[#181E4B] text-[40px] font-bold text-center leading-[71.04px] w-[639px] h-[446.04px]">
+      <h2 className="josefinSans text-[#181E4B] text-[40px] font-bold text-center leading-[71.04px] w-[639px] h-[446.04px] mt-4">
         What Our Customers Say
       </h2>
 

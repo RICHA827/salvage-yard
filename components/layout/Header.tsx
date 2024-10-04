@@ -37,12 +37,12 @@ const Header = ({showSellMyCarButton = true}) => {
           <nav className="flex space-x-5 md:space-x-8 ml-auto">
             <Link
               href='/'
-              className="inter text-black font-medium text-[16px] leading-[20px]  hover:text-[#01AD13]" >
+              className="inter font-medium text-[16px] leading-[20px] hover:text-[#01AD13]" >
               Home
             </Link>
             <Link
               href="#"
-              className="inter text-black font-medium text-[16px] leading-[20px] hover:text-[#01AD13] pr-14">
+              className="inter font-medium text-[16px] leading-[20px] hover:text-[#01AD13] pr-14">
               Search Inventory
             </Link>
           </nav>
@@ -50,7 +50,7 @@ const Header = ({showSellMyCarButton = true}) => {
           <div className="flex md:pr-10">
             <Link  href="/sell-my-car">
             <button
-              className="poppins bg-[#00BE14] text-white text-[12px] md:text-[17.68px] leading-[20px] md:leading-[26.52px] font-semibold py-3 px-16 rounded"
+              className="poppins bg-[#00BE14] text-white text-[12px] md:text-[17.68px] leading-[20px] md:leading-[26.52px] font-semibold py-4 px-16 rounded"
             >
               Sell My Car
             </button>

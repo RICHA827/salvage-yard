@@ -5,7 +5,7 @@ import Icon from "public/services-icon.png";
 
 const CoreServices: React.FC = () => {
   return (
-    <section className="py-6 mt-14 bg-white relative">
+    <section className="py-6 mt-14 mb-10 bg-white relative">
       <div className="container mx-auto text-center">
         <h2 className="josefinSans text-[40px] leading-[40px] font-bold mb-4">
           Our Core Services
@@ -17,7 +17,7 @@ const CoreServices: React.FC = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center justify-items-center">
           <div className="space-y-8 flex flex-col justify-center">
-            <div className="flex items-start text-left gap-4 p-4 bg-white md:ml-52 mr-8">
+            <div className="flex items-start text-left gap-4 p-4 bg-white md:ml-52 md:mr-8">
               <Image
                 src={Icon}
                 alt="Sell Your Vehicle for Cash"

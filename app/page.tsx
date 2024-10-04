@@ -28,15 +28,15 @@ const HomePage = () => {
           Quality Used Auto Parts at a Quality Price
           </p>
           <p className="poppins font-normal text-[18.35px] leading-[24.09px] items-center text-[#CAD4FB] mb-4 tracking-[0.04em]">
-          Hours Of Operation : Monday-Friday : 07:00 am- <br /> 3:30pm PST, Saturday and Sunday : Closed. 
+          Hours Of Operation : Monday-Friday : 07:00 AM- <br /> 3:30PM PST, Saturday and Sunday : Closed. 
           </p>
           <p className="flex items-center ">
             <span className="flex poppins font-semibold text-[11px] md:text-[16.06px] leading-[15px] md:leading-[24.09px] items-center w-auto h-auto md:w-[299.44px] md:h-[30.57px] md:whitespace-nowrap md:tracking-[0.04em] md:mr-6 mr-3">
-            <Image src={PhoneIcon} alt="Phone Icon" className="w-[12px] md:w-[17.21px] h-[18.35px] m-1"/>
-              +1 260-493-1553/800-295-5833
+            <Image src={PhoneIcon} alt="Phone Icon" className="w-[12px] md:w-[17.21px] h-[12px] md:h-[18.35px] m-1"/>
+            +1 260-493-1553/800-295-5833
             </span>
-            <span className="poppins flex items-center font-semibold text-[11px] md:text-[16.06px] leading-[14px] md:leading-[17.21px] md:w-[413.26px] md:h-[30.57px] md:whitespace-nowrap md:tracking-[0.04em]">
-              <Image src={AddressIcon} alt="Address Icon" className="w-[18px] md:w-[24.18px] h-[18px] md:h-[24.18px] m-1"/>
+            <span className="poppins flex items-center font-semibold text-[11px] md:text-[16.06px] leading-[14px] md:leading-[17.21px] md:w-[413.26px] w-auto h-auto md:h-[30.57px] md:whitespace-nowrap md:tracking-[0.04em]">
+              <Image src={AddressIcon} alt="Address Icon" className="w-[18px] md:w-[23px] h-[18px] md:h-[23px] m-1"/>
              4200 S.Maplecrest Rd, Fort Wayne, IN 46806
             </span>
           </p>

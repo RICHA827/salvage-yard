@@ -21,7 +21,7 @@ const AboutUs = () => {
         <h2 className="text-[40px] font-semibold leading-[40px] mb-6 josefinSans">
           About us
         </h2>
-        <p className="text-[#050505] text-[16px] mb-6 font-normal leading-[24px] poppins w-[594.76px] h-[144px]">
+        <p className="text-[#050505] text-[16px] mb-6 font-normal leading-[24px] poppins w-[594.76px]">
           At OEM USED AUTO PARTS we are dedicated to offering top-tier salvage
           parts for vehicles of all makes and models. Whether you&apos;re
           searching for hard-to-find components, need a cost-effective solution
